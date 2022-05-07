@@ -32,7 +32,7 @@ app.use("/api", authRoutes);
 app.use("/api", contestRoutes);
 
 app.get("/", (req, res) => {
-  res.redirect(`http://${process.env.CLIENT_URL}`);
+  res.redirect(`${process.env.CLIENT_URL}`);
 });
 
 const PORT = process.env.PORT || 5000;
