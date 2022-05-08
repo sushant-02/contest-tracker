@@ -3,8 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import HomePage from "./Pages/HomePage";
 import LoginPage from "./Pages/LoginPage";
-
-import "./App.css";
+import NotFoundPage from "./Pages/NotFoundPage";
 
 function App() {
   const [user, setUser] = useState("");
@@ -14,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage user={user} />} />
         <Route path="/login" element={<LoginPage setLoginUser={setUser} />} />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </BrowserRouter>
   );

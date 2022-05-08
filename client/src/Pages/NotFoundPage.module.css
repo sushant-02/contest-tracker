@@ -1,4 +1,4 @@
-.loginContainer {
+.notFoundContainer {
   height: 100vh;
   background-color: rgb(228, 229, 247);
 }
@@ -12,15 +12,11 @@
   box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.1);
 }
 
-.title {
+.heading {
+  font-size: 60px;
   text-align: center;
   font-weight: bold;
   margin: 0;
-}
-
-.subtitle {
-  text-align: center;
-  font-weight: bold;
 }
 
 .line {
@@ -29,25 +25,4 @@
   border-bottom: 2px solid rgb(245 239 239);
   line-height: 0.1em;
   margin: 25px 0;
-}
-
-.line span {
-  background: #fff;
-  padding: 0 10px;
-}
-
-.usernameLogin label {
-  color: rgb(170 166 166);
-  margin-bottom: 5px;
-}
-
-.loginBtn {
-  color: white;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  width: 100%;
-  border-radius: 10px;
-  border: none;
 }

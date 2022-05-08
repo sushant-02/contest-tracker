@@ -4,18 +4,15 @@
   display: flex;
   justify-content: center;
   background-color: #F7F8FA;
-  /* overflow: auto; */
 }
 
 .homeWrapper {
-  /* height: 100vh; */
   width: 670px;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
 .addContestCard {
-  font-family: sans-serif;
   width: 100%;
   border-radius: 10px;
   background-color: #ffff;
@@ -24,14 +21,12 @@
 }
 
 .detailsCard {
-  font-family: sans-serif;
   width: 100%;
   border-radius: 4px;
   box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.1);
 }
 
 .customCard {
-  font-family: sans-serif;
   width: 100%;
   border-radius: 4px;
   background-color: #ffff;
